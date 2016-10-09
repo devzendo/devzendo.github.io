@@ -78,8 +78,8 @@ analytics:
 # Site Author
 author:
   name             : "Matt Gumbley"
-  avatar           : "MattGumbley.jpg"
-  bio              : "Software Craftsman."
+  avatar           : "Enso-from-Godai_by_blackmage13.png"
+  bio              : "Aesthetic Open Source Software."
   location         : "Kent, Airstrip One"
   email            :
   uri              :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : devzendo
+  twitter          : mattgumbley
   vine             :
   weibo            :
   xing             :
