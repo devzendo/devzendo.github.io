@@ -11,12 +11,12 @@ title                    : "DevZendo.org"
 title_separator          : "-"
 name                     : "DevZendo.org"
 description              : "Aesthetic Open Source Software"
-url                      : "https://devzendo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-#url                      : http://localhost:8000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#url                      : "https://devzendo.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://localhost:8000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "devzendo/devzendo.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -168,6 +168,12 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  dev:
+    output: true
+    permalink: /:collection/:path/
+  apps:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -183,13 +189,17 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "docs"
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      sidebar:
+        nav: "docs"
   # _docs
   - scope:
       path: ""
@@ -202,7 +212,30 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
-
+  # _dev
+  - scope:
+      path: ""
+      type: dev
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # _apps
+  - scope:
+      path: ""
+      type: apps
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
 
 # Sass/SCSS
 sass:

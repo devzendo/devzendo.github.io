@@ -3,8 +3,50 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Sample Navigation Link"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
+  - title: "Applications"
+    url: /applications/
 
-  - title: "Sample Navigation Link 2"
-    url: /
+  - title: "Developer Area"
+    url: /developer-area/
+
+  - title: "Manifesto for Software Craftsmanship"
+    url: http://manifesto.softwarecraftsmanship.org/
+
+  - title: "Contact Us"
+    url: /contact/
+
+
+# documentation links
+docs:
+  - title: "About"
+    url: /about/
+    children:
+      - title: "Our members"
+        url: /members/
+      - title: "Software Crafting Books"
+        url: /software-crafting-books/
+
+  - title: "Applications"
+    url: /applications/
+    children:
+      - title: "DateDiff"
+        url: /apps/datediff/
+      - title: "Object Shell"
+        url: /apps/shell/
+      - title: "Codename: Feurio"
+        url: /shhhh/
+
+  - title: "Developer Area"
+    url: /developer-area/
+    children:
+      - title: "Cross-platform Launcher Plugin"
+        url: /dev/xplp/
+      - title: "Common Libraries"
+        url: /dev/commons/
+      - title: "Common DB Access"
+        url: /dev/common-db/
+      - title: "Mavenised Quaqua"
+        url: /dev/mavenised-quaqua/
+      - title: "Codename: Plan B"
+        url: /shhhh/
+
