@@ -37,7 +37,7 @@ Artifacts in the central repository are signed by Matt Gumbley:
 *  GPG fingerprint 0A86 31FA 90FD 263B D7C8  E16E B6F3 E26A 5BF1 5889
 *  Public key is available from most fine key servers, e.g. from <a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xB6F3E26A5BF15889">pgp.mit.edu</a>, and is posted below should you wish to import it directly:
 
-
+<font size="-1">
 <pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: SKS 1.1.0
@@ -62,5 +62,4 @@ Mn1O4kV/0BKBGOEJ88pciTj+g2CEryI/a6sDY/jHwGXB4YSDo2dz0VdVZTN33a+AHfymXupE
 =q4bu
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
-
-TODO
+</font>
