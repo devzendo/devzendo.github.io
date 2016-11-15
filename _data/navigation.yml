@@ -49,4 +49,6 @@ docs:
         url: /dev/mavenised-quaqua/
       - title: "Codename: Plan B"
         url: /shhhh/
+      - title: "Release Schedule"
+        url: /dev/release-schedule/
 
