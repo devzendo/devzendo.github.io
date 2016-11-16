@@ -17,11 +17,11 @@ It mixes the H2 database engine with Spring-JDBC, in a type-safe style.
 ## Resources
 
 * **License:** <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License v2</a>
-* **Documentation:** <a href="https://devzendo@bitbucket.org/devzendo/common-db/src/4c4121f4c10044b6dc8b46a1e34275f2157d1472/docs/Framework%20user%20guide%200.1.1.pdf?at=default">Framework User Guide</a> \[PDF\]
-* **Change history**: [change history]({{ base_path }}/dev/commondb-change-history).
+* **Documentation:** <a href="https://devzendo@bitbucket.org/devzendo/common-db/raw/4c4121f4c10044b6dc8b46a1e34275f2157d1472/docs/Framework%20user%20guide%200.1.1.pdf">Framework User Guide</a> \[PDF\]
+* **Change history**: [change history]({{ base_path }}/dev/common-db-change-history).
 * **Current release:** 0.1.1 for Scala 2.10
 * **Release announcements:**
-  * [0.1.1 18 September 2013]({{ base_path }}/development/commondb-0.1.1)
+  * [0.1.1 18 September 2013]({{ base_path }}/development/common-db-0.1.1)
 * **Release schedule:** The plugin is released as part of the [DevZendo.org release schedule]({{ base_path }}/dev/release-schedule) which allows for 8 releases per year.
 * **Availability**: This is available from the <a href="http://search.maven.org/#browse%7C-125156780">Central Maven Repository</a>
 * **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/commondb">Mercurial source repository, hosted on Bitbucket
