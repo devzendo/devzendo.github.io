@@ -7,6 +7,82 @@ author_profile: false
 
 {% include base_path %}
 
-mvn q
+Werner Randelshofer's excellent <a href="http://randelshofer.ch/quaqua/index.html">Quaqua</a> Look and Feel library for Mac OS X is available from his site as a .zip download.
+To make it easier to use in Maven-based projects, I have converted it to a set of zips/jars containing javadocs, sources, Java library and Native library, and have deployed this to the Central Maven Repository.
 
-TODO
+**Note that Werner's domain is randelshofer.ch, which would give a Maven group id of ch.randelshofer, however, I can't deploy under that, so, these artifacts are deployed under the org.devzendo group id.**
+ 
+Also, he has released Quaqua 8 and 9, whereas this deployment is the older 7.3.4 release. I intend to upgrade and deploy these new releases in the near future; if this would be of immediate use to you, please contact me and I'll increase the priority.
+
+Note that this does not make any changes to Quaqua, it's just a repackaging and distribution. Quaqua is &copy; 2003-2010 Werner Randelshofer, and is distributed under the Modified BSD and LGPL licenses. Please see <a href="http://randelshofer.ch/quaqua/license.html">the Quaqua license page</a> for more details.
+
+## Using the Quaqua libraries via Maven
+
+To make use of Quaqua via Maven, add the following dependency to your pom.xml:
+
+<font size="-1">
+<pre>
+    &lt;dependency&gt;
+        &lt;groupId&gt;org.devzendo&lt;/groupId&gt;
+        &lt;artifactId&gt;Quaqua&lt;/artifactId&gt;
+        &lt;version&gt;7.3.4&lt;/version&gt;
+    &lt;/dependency&gt;
+</pre>
+</font>
+
+Ensure that org.devzendo Quaqua-7.3.4.jar is on your classpath.
+
+Ensure that the org.devzendo LibQuaqua-7.3.4.zip containing Quaqua's native
+libraries is unzipped during your package phase, and is available on your classpath during execution.
+In the following snippet, I extract this zip into the location where our [Cross-Platform Launcher Plugin]({{ base_path }}/dev/xplp)
+will place all libraries, for a Mac OSX GUI .app:
+
+<font size="-1">
+<pre>
+    &lt;!--
+      Copy the Quaqua native libraries into the correct location in the
+      Mac OS X launcher structure created above.
+    --&gt;
+    &lt;plugin&gt;
+        &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+        &lt;artifactId&gt;maven-dependency-plugin&lt;/artifactId&gt;
+        &lt;executions&gt;
+            &lt;execution&gt;
+                &lt;id&gt;unpack-quaqua-dependencies&lt;/id&gt;
+                &lt;phase&gt;package&lt;/phase&gt;
+                &lt;goals&gt;
+                    &lt;goal&gt;unpack&lt;/goal&gt;
+                &lt;/goals&gt;
+                &lt;configuration&gt;
+                    &lt;artifactItems&gt;
+                        &lt;artifactItem&gt;
+                            &lt;groupId&gt;org.devzendo&lt;/groupId&gt;
+                            &lt;artifactId&gt;LibQuaqua&lt;/artifactId&gt;
+                            &lt;version&gt;7.3.4&lt;/version&gt;
+                            &lt;type&gt;zip&lt;/type&gt;
+                            &lt;overWrite&gt;true&lt;/overWrite&gt;
+                            &lt;includes&gt;*&lt;/includes&gt;
+                            &lt;outputDirectory&gt;
+                                ${project.build.directory}/macosx/${appName}.app/Contents/Resources/Java/lib
+                            &lt;/outputDirectory&gt;
+                        &lt;/artifactItem&gt;
+                    &lt;/artifactItems&gt;
+                    &lt;!-- other configurations here --&gt;
+                &lt;/configuration&gt;
+            &lt;/execution&gt;
+        &lt;/executions&gt;
+    &lt;/plugin&gt;
+</pre>
+</font>
+
+(See the [Cross-Platform Launcher Plugin]({{ base_path }}/dev/xplp) page for more information.)
+
+In your code, you can then:
+
+UIManager.setLookAndFeel("ch.randelshofer.quaqua.QuaquaLookAndFeel");
+
+## Mavenisation scripts
+
+The scripts used to prepare the Mavenised artifacts and deploy them to the Central Repository are available from <a href="https://devzendo@bitbucket.org/devzendo/quaqua">their Mercurial repository</a>.
+
+
