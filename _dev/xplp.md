@@ -16,7 +16,7 @@ Note that this plugin only creates the launcher structure - you will need additi
 
 * **License:** <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License v2</a>
 * **Documentation:** <a href="devzendo.org/sites/default/files/xplp-site/index.html" target="_blank">Plugin site documentation</a> (open in new tab)
-* **Change history:** [change history]({{ base_path }})/dev/xplp-change-history).
+* **Change history:** [change history]({{ base_path }}/dev/xplp-change-history).
 * **Current release:** 0.2.2
 * **Release announcements:**
   * [0.2.2 25th September 2013]({{ base_path }}/development/xplp-0.2.2)

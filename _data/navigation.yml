@@ -25,6 +25,8 @@ docs:
         url: /members/
       - title: "Software Crafting Books"
         url: /software-crafting-books/
+      - title: "Contact Us"
+        url: /contact/
 
   - title: "Applications"
     url: /applications/
