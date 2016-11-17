@@ -33,8 +33,17 @@ source model since it affords us the best opportunity to create quality.
   niche markets to keep small software companies alive. The craft of writing
   software will not become obsolete. And the craft of using software creatively
   is flourishing even more than the craft of writing it." 
->  
-> -- Freeman Dyson, Science as a Craft Industry.
+
+<cite>Freeman Dyson</cite> --- Science as a Craft Industry.
+{: .small}
+
+> People think focus means saying yes to the thing you've got to focus on. 
+  But that's not what it means at all. It means saying no to the hundred other good ideas that there are. 
+  You have to pick carefully. I'm actually as proud of the things we 
+  haven't done as the things I have done. Innovation is saying no to 1,000 things.
+
+<cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997
+{: .small}
 
 We favour modern, cross-platform development languages, such as Java & Scala.
 We're experimenting with Swift, Elm, Haskell, Erlang and Perl 6.
