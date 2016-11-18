@@ -27,6 +27,9 @@ For our earlier releases, you will need to [enable our Maven 2 Repositories]({{ 
 
 * The [Quaqua Look and Feel library]({{ base_path }}/dev/mavenised-quaqua)
 
+## Other common libraries
+
+* We have several [common libraries]({{ base_path }}/dev/commons) that provide essential functionality for our larger works.
 
 ## Signing
 

@@ -43,8 +43,10 @@ docs:
     children:
       - title: "Cross-platform Launcher Plugin"
         url: /dev/xplp/
-      - title: "Common Libraries"
+      - title: "Common Java Libraries"
         url: /dev/commons/
+      - title: "Perl Libraries"
+        url: /dev/perl-libraries/
       - title: "Common DB Access"
         url: /dev/common-db/
       - title: "Mavenised Quaqua"
