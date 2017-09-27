@@ -7,6 +7,17 @@ author_profile: false
 
 {% include base_path %}
 
+## [1.1.0 27th September 2017]({{ base_path }}/development/xplp-1.1.0)
+
+* Second release to Maven Central.
+* Source moved to bitbucket, updated many dependencies.
+* Fix bug: expand the shell's arguments in double quotes, so that if you use quotes to preserve a single argument
+  containing spaces, the Java program receives it as a single argument.
+* Built with Java 1.7.
+* Added the universal application stub v2.1.0 from Tobias Fichter. This allows OSX launchers to run with JVMs
+  more modern than Apple's Java 1.6. The default stub is still Apple's: to switch to the universal stub and run
+  with the most modern JVM you have, use the <stubType>Universal</stubType> option in your configuration.
+
 ## [0.2.2 25th September 2013]({{ base_path }}/development/xplp-0.2.2)
 
 * First release to Maven Central.
