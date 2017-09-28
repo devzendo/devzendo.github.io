@@ -21,7 +21,7 @@ Note that this plugin only creates the launcher structure - you will need additi
 * **Change history:** [change history]({{ base_path }}/dev/xplp-change-history).
 * **Current release:** 1.1.0
 * **Release announcements:**
-  * [1.1.0 27th September 2017]({{ base_path }}/development/xplp-1.1.0)
+  * [1.1.1 28th September 2017]({{ base_path }}/development/xplp-1.1.1)
   * [0.2.2 25th September 2013]({{ base_path }}/development/xplp-0.2.2)
   * [0.2.1 19th April 2011]({{ base_path }}/development/xplp-0.2.1)
   * [0.2.0 28th September 2010]({{ base_path }}/development/xplp-0.2.0)
