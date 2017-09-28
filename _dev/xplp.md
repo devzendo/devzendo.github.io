@@ -19,7 +19,7 @@ Note that this plugin only creates the launcher structure - you will need additi
   * Universal Java Application Stub (embedded in this plugin) is Copyrighted by Tobias Fischer: <a href="https://opensource.org/licenses/MIT">MIT License</a> 
 * **Documentation:** <a href="http://devzendo.org/sites/default/files/xplp-site/index.html" target="_blank">Plugin site documentation</a> (open in new tab)
 * **Change history:** [change history]({{ base_path }}/dev/xplp-change-history).
-* **Current release:** 1.1.0
+* **Current release:** 1.1.1
 * **Release announcements:**
   * [1.1.1 28th September 2017]({{ base_path }}/development/xplp-1.1.1)
   * [0.2.2 25th September 2013]({{ base_path }}/development/xplp-0.2.2)
