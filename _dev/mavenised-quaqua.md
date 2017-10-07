@@ -12,7 +12,7 @@ To make it easier to use in Maven-based projects, I have converted it to a set o
 
 **Note that Werner's domain is randelshofer.ch, which would give a Maven group id of ch.randelshofer, however, I can't deploy under that, so, these artifacts are deployed under the org.devzendo group id.**
  
-The latest release to central is his 9.1 version; there are also older releases of 7.3.4.
+The latest release to central is his 9.1 version; there is also an older release of 7.3.4.
 
 Note that this does not make any changes to Quaqua, it's just a repackaging and distribution. Quaqua is &copy; 2003-2017 Werner Randelshofer, and is distributed under the Modified BSD and LGPL licenses. Please see <a href="http://randelshofer.ch/quaqua/license.html">the Quaqua license page</a> for more details.
 
