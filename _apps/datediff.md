@@ -68,7 +68,7 @@ Choose <b>Help &gt;</b> then **Important! Read me first!**
 Use the [Contact Us]({{ base_path }}/contact) form, or send us a tweet; we're <a href="http://twitter.com/devzendo">@devzendo</a>.
 
 <p align="center">
-<img src="http://devzendo.org/sites/default/files/appstore.png"><br>
+<img src="{{ base_path }}/images/datediff/appstore.png"><br>
 </p>
 
 ## Acknowledgements
