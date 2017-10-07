@@ -43,7 +43,7 @@ To get offline access to DateDiff from your home screen, press the "Add Options"
 <p align="center">
 <table>
 <tr>
-<td><img src="http://devzendo.org/sites/default/files/step_one.png"></td><td><img src="http://devzendo.org/sites/default/files/step_two.png"></td>
+<td><img src="{{ base_path }}/images/datediff/step_one.png"></td><td><img src="{{ base_path }}/images/datediff/step_two.png"></td>
 </tr>
 </table>
 </p>
@@ -53,7 +53,7 @@ Choose a suitable name for the app, then the DateDiff icon will be added to your
 <p align="center">
 <table>
 <tr>
-<td><img src="http://devzendo.org/sites/default/files/step_three.png"></td><td><img src="http://devzendo.org/sites/default/files/step_four.png"></td>
+<td><img src="{{ base_path }}/images/datediff/step_three.png"></td><td><img src="{{ base_path }}/images/datediff/step_four.png"></td>
 </tr>
 </table>
 </p>
