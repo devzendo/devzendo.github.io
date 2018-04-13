@@ -37,6 +37,8 @@ docs:
         url: /apps/shell/
       - title: "Codename: Feurio"
         url: /shhhh/
+      - title: "Parachute Project"
+        url: /parachute/
 
   - title: "Developer Area"
     url: /developer-area/
