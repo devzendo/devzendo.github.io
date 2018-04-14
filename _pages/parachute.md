@@ -7,20 +7,19 @@ author_profile: false
 
 {% include base_path %}
 
-This is one of my projects that isn't quite ready to be released yet. But hey, it's open source! It's out there!
-I'm building it, so.... come!
+This is one of my projects that isn't quite ready to be released yet. 
 
-It's one of those long-term aspirational things; something of a historical reconstruction, inspired by one of my
+It's quite a long-term project; something of a historical reconstruction, inspired by one of my
 favourite lyrics:
 
 "Let's rebuild the past, 'cos the future won't last." -- "The Hot Revivalist" by The High Llamas.
 
 ... and also by the works of genius that were the Inmos Transputer, occam and CSP. I'm also inspired in this project
-by the genius of Charles 'Chuck' H. Moore, and the Forth language he invented. Similarly by Professor Niklaus Wirth's
+by the genius of Charles 'Chuck' H. Moore, and the Forth language he invented. Also by Professor Niklaus Wirth's
 Project Oberon, and his paper "A Plea for Lean Software".
  
 
-# Origin - Phase 1, The Keele Years
+# Versions 1 and 2, Keele University
 
 The origin of this project was around December 1995 to March 1996. 
 
@@ -28,21 +27,15 @@ The final year project in my computer science undergraduate degree was to write 
 Transputer. This was at Keele University, under Dr. Barry Cook. 
 
 The first version was written in occam (converted from occam to C via the SPOC system) - and was very slow. I rewrote
-it around March 1996, in C (a language with which I was more familiar at a low level).
+it around March 1996, in C (a language with which I was more familiar at a low level). This version 2 was much faster.
 
-This version 2 was much faster.
-
-I had this idea about having a Transputer virtual machine running on every desktop, running distributed computation
-jobs - like the BOINC network does.... "just" connect the links to network ports, and with a bit of hand waving, you've
-got a compute grid... "just like that".... ah, youth..
-
-# Origin - Phase 2, The Lost Version
+# Version 3, The Lost Version
 
 A couple years after I graduated, I started afresh with a third version in C++, with Microsoft Visual Studio and MFC;
 a graphical version with an indended debugger/disassembler user interface inspired by Microsoft CodeView. It would run
 binary T800 programs compiled by SPOC etc... sadly I never got it to a fully working point, and the code was lost.
 
-# Origin - Phase 3, Trains and Parallel Processing
+# Version 4 Part I, On The Train
 
 In 2005, I was bored during my commute to work, and having some time to kill on the train, and an old laptop running
 Linux, set about starting a new version of the Transputer emulator. This time, the links were connected to network
@@ -58,7 +51,7 @@ So in 2005 I could write in C, or assembler, and run it on the emulator.
 
 Then, as tends to happen with large projects, I changed focus onto something else, and put this to one side.....
 
-# Origin - Phase 4, Trains and Modern Operating Systems
+# Version 4 Part II, Modern Operating Systems
 
 ... until 2018. I came across my old Transputer books whilst looking for some other old book, and started leafing
 through them again, realising that this was an idea that I was once (more than once) keen to pursue. 
