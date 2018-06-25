@@ -18,7 +18,7 @@ favourite lyrics:
 by the genius of Charles 'Chuck' H. Moore, and the Forth language he invented. Also by Professor Niklaus Wirth's
 Project Oberon, and his paper "A Plea for Lean Software".
  
-The history of the project leading up to its current point can be found [**here]](){{ base_path }}/parachute-history/)
+The history of the project leading up to its current point can be found at the [**Parachute Project History**]]({{ base_path }}/parachute-history/) page.
 
 
 The current state is that I have the following three sub-projects:
