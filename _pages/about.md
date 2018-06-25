@@ -46,7 +46,7 @@ source model since it affords us the best opportunity to create quality.
 {: .small}
 
 We favour modern, cross-platform development languages, such as Java & Scala.
-We're experimenting with Swift, Elm, Haskell, Erlang and Perl 6.
+We have Elm, Haskell, Erlang and Perl 6 on our radar.
 We don't tolerate bad tech such as the JavaScript ecosystem
 and its 'framework du jour' approach. We'll occasionally write in
 dynamic languages, but not at scale. That way lies madness. Strict,
