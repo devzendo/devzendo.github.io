@@ -18,22 +18,27 @@ favourite lyrics:
 by the genius of Charles 'Chuck' H. Moore, and the Forth language he invented. Also by Professor Niklaus Wirth's
 Project Oberon, and his paper "A Plea for Lean Software".
  
+The goal is to revisit a Transputer emulator I initially wrote several years ago, produce a port of
+eForth that runs on it, then extend eForth into a distributed OS kernel. Investigate modern/concurrent/functional
+language design. If I can make progress with this, also look at building an FPGA Transputer system
+capable of running the above.
+
 The history of the project leading up to its current point can be found at the [**Parachute Project History**]]({{ base_path }}/parachute-history/) page.
 
 
 The current state is that I have the following three sub-projects:
 
-The Transputer MASM-subset Macro Assembler can be found at:
+WORKING - The Transputer MASM-subset Macro Assembler can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-macro-assembler
 ```
 
-Transputer eForth can be found at:
+IN PROGRESS - Transputer eForth can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-eforth
 ```
 
-The Transputer emulator itself can be found at:
+NOT YET RESTARTED - The Transputer emulator itself can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-emulator
 ```
