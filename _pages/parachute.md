@@ -27,7 +27,7 @@ The goals are:
  * investigate modern/concurrent/functional language design
  * investigate building an FPGA Transputer system capable of running the above
 
-The history of the project leading up to its current point can be found at the [**Parachute Project History**]]({{ base_path }}/parachute-history/) page.
+The history of the project leading up to its current point can be found at the [**Parachute Project History**]({{ base_path }}/parachute-history/) page.
 
 
 The current state is that I have the following three sub-projects:
