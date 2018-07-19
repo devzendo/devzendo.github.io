@@ -30,9 +30,12 @@ The goals are:
 The history of the project leading up to its current point can be found at the [**Parachute Project History**]({{ base_path }}/parachute-history/) page.
 
 
-The current state is that I have the following three sub-projects:
+The current state is that I have the following three sub-projects - the README.md at the top-level of each of these
+repositories will give more detail...
 
-WORKING - The Transputer MASM-subset Macro Assembler can be found at:
+All are IN PROGRESS, NOT YET RELEASED FORMALLY.
+
+WORKING, BEING ENHANCED - The Transputer MASM-subset Macro Assembler can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-macro-assembler
 ```
@@ -42,7 +45,7 @@ IN PROGRESS - Transputer eForth can be found at:
 https://bitbucket.org/devzendo/transputer-eforth
 ```
 
-NOT YET RESTARTED - The Transputer emulator itself can be found at:
+IN PROGRESS - The Transputer emulator itself can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-emulator
 ```
@@ -75,9 +78,14 @@ Also, <a href="https://tu-dresden.de/ing/informatik/ti/vlsi/ressourcen/dateien/d
 Uwe Mielke's T42 Transputer in FPGA</a> project.
 
 # Other Emulators
-There are more emulators now - <a href="http://transterpreter.org">the Transterpreter</a>, 
-<a href="https://sites.google.com/site/transputeremulator/Home">Gavin Crate's emulator</a>, 
-<a href="http://spirit.lboro.ac.uk/emulator.html">Julian Highfield's emulator</a>.
+There are more emulators now - 
+* <a href="http://transterpreter.org">the Transterpreter</a>, 
+* <a href="https://sites.google.com/site/transputeremulator/Home">Gavin Crate's emulator</a>, 
+* <a href="http://spirit.lboro.ac.uk/emulator.html">Julian Highfield's emulator</a>.
+
+# Resources
+* <a href="{{ base_path }}/static/transputer/tis-acwg.pdf" target="_blank">Transputer Compiler Writer's Guide</a> (PDF) (open in new tab)
+* <a href="{{ base_path }}/static/transputer/compiler-writers-guide-errata.txt" target="_blank">Transputer Compiler Writer's Guide Errata sheet</a> (ASCII) (open in new tab)
 
 
 So the Transputer isn't dead... watch this space...

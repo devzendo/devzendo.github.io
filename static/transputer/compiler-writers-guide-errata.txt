@@ -1,0 +1,118 @@
+Here is a list of known "bugs"/"features" in the Transputer Instruction
+Set/Compiler Writer's Guide book.
+
+If you are aware of any others please email me with details
+(d...@inmos.co.uk or d...@inmos.com) so that I can update this list.
+
+david shepherd
+
+PS
+
+1) I am not, nor ever have been, a member of the documentation group at
+INMOS and thus I have no knowledge of what they are producing for more
+recent transputer variants (e.g. T425) or even H-1 so don't bother
+asking me!
+
+2) Please do not send me your list of "everything I always wanted to
+know about the transputer instruction set" questions as I don't have
+time to handle such questions.
+
+------------------------------------------------------------------------
+
+                          Transputer Instruction Set
+                           A compiler writer's guide
+                                 Errata sheet
+
+                                David Shepherd
+
+                               November 27, 1990
+
+This is an ascii-ized  version of a LaTeX document.   Unavailable symbols have
+been replaced by words were necessary.
+
+Page Line      Date Description
+
+  38   20 21-jun-90 Add  to  end of  paragraph "stoperr  also  saves the
+                    Iptr  of  an erroneous  process  in (Wptr-1)  before
+                    scheduling  the  next  process  to  allow it  to  be
+                    analyzed or restarted later."
+  46   16 10-jan-90 The  workspace  pointer  must  have  the same  value
+                    at  each of  the alt,  altwt,  altend and  enable or
+                    disable  instructions.   It may however  be changed,
+                    for  example,  while  evaluating an  argument to  an
+                    enable  instruction.  However,  (Wptr-3) must not be
+                    changed between the alt and altend.
+  55   -2 28-jun-90 bracketting wrong - should be
+                    and  exists m:Z, r:[-pi,pi] .  x =  (m times 2 pi) +
+                    r and (r = x, REM, 2 pi)
+  65   -1 10-apr-89 should   read  "... this   will  include   the  most
+                    significant bit ... "
+  67   -6 21-jun-90 Add new paragraph:
+                    The  current process must not be descheduled between
+                    the move2dinit and the actual 2d move instruction.
+  78 1-13  1-sep-88 Descriptions  of j  and lend  should state  that the
+                    jump  has  not  been taken  rather  than  has as  in
+                    original  version.   Descriptions  of stopp,  in and
+                    out  should also say that Wptr-1 has been set to the
+                    value of Iptr.
+ 84     -12  7-aug-90 add a new section
+
+                      Memstart
+
+                      MemStart  is  the address  of the  first  word above
+                      the  special  RAM  locations at  the  bottom of  the
+                      memory  map.  Because  different transputer variants
+                      store  different  information in  these  special RAM
+                      locations  MemStart differs  between variants.   The
+                      values for current processors are
+                       IMS T212 #8024
+                       IMS T414 #80000048
+                       IMS T425 #80000070
+                       IMS T800 #80000070
+                      the  values for these  and other variants  are given
+                      in the relevant datasheets.
+ 85       8  7-nov-89 "(Wptr-3)  ... contains the  address of the  data to
+                      be  transferred."   Instead  of "... address  of the
+                      channel being used."
+ 91     -10 21-jun-90 should be ldnlp x-offset not ldlp x-offset
+ 92       4 22-jul-88 "ldl x; E; wsub" should be "E; ldl x; wsub"
+117      -1 22-aug-88 Code for out should be #0B
+118   -7,-6  3-nov-88 Cycles for lsum and ldiff should be 3 not 2
+118     -15 21-jun-90 Change  the  Cycles for  stoperr to  "dagger"  as it
+                      depends  on the error state - the value given is for
+                      when the error is not set.
+120 -10- -7  8-feb-89 Cycles   for  fpldnlsn,   fpldnldb,   fpldnlsni  and
+                      fpldnldbi should be 2,4,4 and 6 respectively.
+131      -2 23-aug-90 Far  too  many "the's"  -  the "the  the" should  be
+                      "the'!
+132    9-12 30-oct-89 Should be ByteMem and not Mem
+134      20 31-aug-88 In specification of call add
+                      Breg' = undefined
+                      Creg' = undefined
+134      24 26-jun-90 0 7! NextInst not Iptr
+135 -17,-15  9-jul-90 delete  "or (Areg =  -1 and Breg  = -2**(wordlength-
+                      1))" and the corresponding term 2 lines below
+136 -17,-11 16-oct-89 should  be  "Areg <=(unsigned)  wordlength"  in both
+                      cases
+140   13,26 26-jun-90 occuring spelt wrong
+142     -11 23-mar-89 should   read  ... `schedule  next  waiting  process
+                      saving Iptr in current workspace'
+142      -4 25-jun-90 condition of implication should be
+                      "Areg <= Breg < 2 x Areg"
+150      -9 21-jun-90 should be "@value" and not "value"
+152     6,7 13-sep-88 both occurences of Breg should be Breg x 2
+159   18,25 20-jun-90 The  precondition  fv FAreg "in" [MinINT32,MaxINT32]
+                      should be removed.  Line 25 should be
+                      Mem' = Mem "overwrite" f Areg "mapsto"
+                       (RETYPE []INT(INT"infinity" TRUNC pack(FAreg))[0]g
+
+Remember, the  Transputer Instruction Set book  only covers the IMS  T212, IMS
+T414 and IMS T800.  Subsequent transputers have some additional features which
+are not  documented here.   Additional  documentation should be  available for
+these.
+
+--------------------------------------------------------------------------
+david shepherd: d...@inmos.co.uk or d...@inmos.com    tel: 0454-616616 x 529
+                inmos ltd, 1000 aztec west, almondsbury, bristol, bs12 4sq
+                phevbfvgl xvyyrq gur png 
+
