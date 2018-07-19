@@ -9,15 +9,14 @@ author_profile: false
 
 This is one of my projects that isn't quite ready to be released yet. 
 
-It's quite a long-term project; something of a historical reconstruction, inspired by one of my
-favourite lyrics:
+It's quite a long-term project; something of a historical reconstruction, inspired by 
+the works of genius that were the Inmos Transputer, occam and CSP. 
 
+Additional motivations are from Professor Niklaus Wirth's Project Oberon, and his paper "A Plea for Lean Software".
+
+The project motto comes from one of my favourite lyrics: 
 "Let's rebuild the past, 'cos the future won't last." -- "The Hot Revivalist" by The High Llamas.
 
-... and also by the works of genius that were the Inmos Transputer, occam and CSP. I'm also inspired in this project
-by the genius of Charles 'Chuck' H. Moore, and the Forth language he invented. Also by Professor Niklaus Wirth's
-Project Oberon, and his paper "A Plea for Lean Software".
- 
 The goals are: 
  * to revisit a Transputer emulator I initially wrote several years ago
  * write a toolchain to support development for it
