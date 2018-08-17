@@ -34,17 +34,17 @@ repositories will give more detail...
 
 All are IN PROGRESS, NOT YET RELEASED FORMALLY.
 
-WORKING, BEING ENHANCED - The Transputer MASM-subset Macro Assembler can be found at:
+WORKING (assembles eForth correctly), STILL NOT FEATURE-COMPLETE - The Transputer MASM-subset Macro Assembler can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-macro-assembler
 ```
 
-IN PROGRESS - Transputer eForth can be found at:
+IN PROGRESS (needs I/O code changing to match my I/O server protocol) - Transputer eForth can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-eforth
 ```
 
-IN PROGRESS - The Transputer emulator itself can be found at:
+IN PROGRESS (needs porting to non-POSIX OS, e.g. Windows) - The Transputer emulator itself can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-emulator
 ```

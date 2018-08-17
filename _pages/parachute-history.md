@@ -64,4 +64,8 @@ was on the Psion 3c PDA...
 ... however this did not yield a successful build.
 
 So I set about building my own MASM clone - just the subset needed to assemble eForth. This is now working, and
-assembling in exactly the same way as MASM does....
+assembling in exactly the same way as MASM does.
+
+I now need to write an assembler client library for my emulator's I/O server protocol, wire this into eForth.
+
+This will give me an emulated system I can work with in eForth.
