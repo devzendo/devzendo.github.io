@@ -7,6 +7,14 @@ author_profile: false
 
 {% include base_path %}
 
+## [1.2.0 21st February 2019]({{ base_path }}/development/xplp-1.2.0)
+
+* Windows: Added the enhanced version of Janel 4.2.0-98 from Michael Knigge https://github.com/michaelknigge/janel
+  To provide support for 64-bit modern Java, Java 9, etc. - see the Github page for details.
+  The default version of Janel is still 3.0.2 for backwards compatibility. To switch to the enhanced Janel
+  use the <janelVersion>4.2</janelVersion> and optionally <janelBits>64</janelBits> (default) or
+  <janelBits>32</janelBits> to switch between 64- and 32-bit variants.
+    
 ## [1.1.1 28th September 2017]({{ base_path }}/development/xplp-1.1.1)
 
 * Second release to Maven Central.
