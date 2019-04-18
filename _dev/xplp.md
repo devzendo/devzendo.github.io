@@ -12,11 +12,14 @@ dependencies, and the necessary launcher scripts/executables/control-file struct
 
 Note that this plugin only creates the launcher structure - you will need additional plugin work to turn this output into an installer.
 
+To find the correct JVM and launch it, the plugin uses shell scripts on Linux, Janel on Windows, and the Universal Java Application Stub on Mac OS X.
 ## Resources
 
 * **License:** 
   * Plugin: <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License v2</a>
-  * Universal Java Application Stub (embedded in this plugin) is Copyrighted by Tobias Fischer: <a href="https://opensource.org/licenses/MIT">MIT License</a> 
+  * Universal Java Application Stub (embedded in this plugin) is Copyrighted by Tobias Fischer: <a href="https://opensource.org/licenses/MIT">MIT License</a>
+  * Janel (embedded in this plugin) is Copyrighted by Copyright (c) 2017 Timothy Kil, Michael Knigge and others who had contributed code to Janel: <a href="https://opensource.org/licenses/MIT">MIT License</a>
+   
 * **Documentation:** <a href="{{ base_path }}/static/xplp-site/index.html" target="_blank">Plugin site documentation</a> (open in new tab)
 * **Change history:** [change history]({{ base_path }}/dev/xplp-change-history).
 * **Current release:** 1.2.0
