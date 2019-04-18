@@ -17,8 +17,8 @@ To find the correct JVM and launch it, the plugin uses shell scripts on Linux, J
 
 * **License:** 
   * Plugin: <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License v2</a>
-  * Universal Java Application Stub (embedded in this plugin) is Copyrighted by Tobias Fischer: <a href="https://opensource.org/licenses/MIT">MIT License</a>
-  * Janel (embedded in this plugin) is Copyrighted by Copyright (c) 2017 Timothy Kil, Michael Knigge and others who had contributed code to Janel: <a href="https://opensource.org/licenses/MIT">MIT License</a>
+  * <a href="https://github.com/tofi86/universalJavaApplicationStub">Universal Java Application Stub</a> (embedded in this plugin) is Copyrighted by Tobias Fischer: <a href="https://opensource.org/licenses/MIT">MIT License</a>
+  * <a href="https://github.com/michaelknigge/janel">Janel</a> (embedded in this plugin) is Copyrighted by Copyright (c) 2017 Timothy Kil, Michael Knigge and others who had contributed code to Janel: <a href="https://opensource.org/licenses/MIT">MIT License</a>
    
 * **Documentation:** <a href="{{ base_path }}/static/xplp-site/index.html" target="_blank">Plugin site documentation</a> (open in new tab)
 * **Change history:** [change history]({{ base_path }}/dev/xplp-change-history).
