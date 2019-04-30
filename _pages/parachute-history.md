@@ -69,3 +69,6 @@ assembling in exactly the same way as MASM does.
 I now need to write an assembler client library for my emulator's I/O server protocol, wire this into eForth.
 
 This will give me an emulated system I can work with in eForth.
+
+After some polishing, the emulator now builds on macOS, CentOS 7, Ubuntu 16.04, Ubuntu 18.04, Windows 10.
+

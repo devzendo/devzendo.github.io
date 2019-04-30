@@ -7,18 +7,13 @@ author_profile: false
 
 {% include base_path %}
 
-This is one of my projects that isn't quite ready to be released yet. 
-
-It's quite a long-term project; something of a historical reconstruction, inspired by 
-the works of genius that were the Inmos Transputer, occam and CSP. 
-
-Additional motivations are from Professor Niklaus Wirth's Project Oberon, and his paper "A Plea for Lean Software".
-
-The project motto comes from one of my favourite lyrics: 
-"Let's rebuild the past, 'cos the future won't last." -- "The Hot Revivalist" by The High Llamas.
+This is a long-term project; something of a historical reconstruction, inspired by 
+* the Inmos Transputer, occam and CSP. 
+* Professor Niklaus Wirth's Project Oberon, and his paper "A Plea for Lean Software".
+* <a href="https://github.com/pervognsen/bitwise">Per Vognsen's Bitwise project</a>.
 
 The goals are: 
- * to revisit a Transputer emulator I initially wrote several years ago
+ * to build a portable, open source Transputer emulator, inspired by a version I wrote several years ago
  * write a toolchain to support development for it
  * produce a port of eForth that runs on it
  * extend eForth into a distributed OS kernel
@@ -44,7 +39,7 @@ IN PROGRESS (needs I/O code changing to match my I/O server protocol) - Transput
 https://bitbucket.org/devzendo/transputer-eforth
 ```
 
-IN PROGRESS (needs porting to non-POSIX OS, e.g. Windows) - The Transputer emulator itself can be found at:
+WORKING (needs releasing) - The Transputer emulator itself can be found at:
 ```
 https://bitbucket.org/devzendo/transputer-emulator
 ```
@@ -53,15 +48,10 @@ https://bitbucket.org/devzendo/transputer-emulator
 # Future
 Other things I've always wanted to write: my own OS; my own language.... 
 
-<a href="http://www.projectoberon.com/">Niklaus Wirth's Project Oberon</a> is a huge inspiration - build a complete useful system that one person can understand all of. 
-
-<a href="https://github.com/pervognsen/bitwise">Per Vognsen's Bitwise project</a> is similarly inspiring.
-
 Once eForth works, and I can investigate the system, it needs to grow to provide the facilities I want so that
 this can be my version of Project Oberon. There will need to be an ELF loader, and a bootloader that can link with an ELF object. Then a
 higher level language (one or more) will be needed for later stages... perhaps best achieved by "just" writing a
 back end for LLVM that targets the T800...
-
 
 The emulator itself could be reworked to run a virtual Transputer on each physical core, with links connecting the
 cores; it could have 'video memory' added via say the SDL library.
@@ -91,4 +81,4 @@ So the Transputer isn't dead... watch this space...
 
 ... to be continued ...
 
-Matt Gumbley, Fri 13 Apr 2018
+Matt Gumbley, Tue 30 Apr 2019
