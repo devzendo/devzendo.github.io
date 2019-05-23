@@ -68,7 +68,7 @@ Free/Libre Open Source Software. Transputer Emulation/Virtual Machine & Language
     <small>Windows 10</small>
   </td>
   <br/>
-  <a href="{{ baseurl }}-windows.zip">Download .zip</a>
+  <a href="{{ baseurl }}-windows-x86_64.zip">Download .zip</a>
 </tr>
 </tbody>
 </table>
