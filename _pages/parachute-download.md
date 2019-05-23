@@ -60,7 +60,7 @@ Free/Libre Open Source Software. Transputer Emulation/Virtual Machine & Language
     <small>Raspbian Stretch</small>
   </td>
   <br/>
-  <a href="{{ baseurl }}-raspberry-pi-linux-arm.tar.gz">Download .tar.gz</a>
+  <a href="{{ baseurl }}-raspbian-9-linux-arm_32.tar.gz">Download .tar.gz</a>
 </tr>
 <tr>
   <td bgcolor="#0000FF"><img src="/images/download-white.svg" width=18px height=18px>
