@@ -3,9 +3,9 @@ permalink: /parachute-download/
 title: "The Parachute Project: Downloads"
 excerpt: "Portable Parallel Processing."
 author_profile: false
-version: 0.0.1-SNAPSHOT
-repourl: https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator
-baseurl: {{ repourl }}/{{ version }}/parachute-{{ version }}-
+version: "0.0.1-SNAPSHOT"
+repourl: "https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator"
+baseurl: "{{ repourl }}/{{ version }}/parachute-{{ version }}-"
 ---
 
 {% include base_path %}
