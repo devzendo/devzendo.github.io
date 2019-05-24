@@ -5,10 +5,11 @@ excerpt: "Portable Parallel Processing."
 author_profile: false
 version: "0.0.1-SNAPSHOT"
 repourl: "https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator"
-baseurl: "{{ repourl }}/{{ version }}/parachute-{{ version }}-"
 ---
 
 {% include base_path %}
+
+{% assign baseurl = "{{ repourl }}/{{ version }}/parachute-{{ version }}-" %}
 
 Download The Parachute Parallel Programming System
 
@@ -22,53 +23,53 @@ Free/Libre Open Source Software. Transputer Emulation/Virtual Machine & Language
 <table>
 <tbody>
 <tr>
-  <td> <img src="/images/apple-logo-old-white.png" height=200 width=200> </td>
-  <td> <img src="/images/ubuntu-logo32.png"height=200 width=200> </td>
-  <td> <img src="/images/centos-logo-transparent.png"height=200 width=200> </td>
-  <td> <img src="/images/raspberry-pi-logo-white.png"height=200 width=200> </td>
-  <td> <img src="/images/windows-logo-transparent.png"height=200 width=200> </td>
+  <td> <img src="{{ base_path }}/images/apple-logo-old-white.png" height=200 width=200> </td>
+  <td> <img src="{{ base_path }}/images/ubuntu-logo32.png"height=200 width=200> </td>
+  <td> <img src="{{ base_path }}/images/centos-logo-transparent.png"height=200 width=200> </td>
+  <td> <img src="{{ base_path }}/images/raspberry-pi-logo-white.png"height=200 width=200> </td>
+  <td> <img src="{{ base_path }}/images/windows-logo-transparent.png"height=200 width=200> </td>
 </tr>
 <tr>
-  <td bgcolor="#0000FF"> <img src="/images/download-white.svg" width=18px height=18px>
+  <td bgcolor="#0000FF"> <img src="{{ base_path }}/images/download-white.svg" width=18px height=18px>
     macOS
     <small>El Capitan</small>
   </td>
   <p/>
-  <a href="{{ page.baseurl }}-mac-x86_64.tar.gz">Download .tar.gz</a>
+  <a href="{{ baseurl }}-mac-x86_64.tar.gz">Download .tar.gz</a>
 </tr>
 <tr>
-  <td bgcolor="#0000FF"> <img src="/images/download-white.svg" width=18px height=18px>
+  <td bgcolor="#0000FF"> <img src="{{ base_path }}/images/download-white.svg" width=18px height=18px>
     Ubuntu LTS
     <small>16.04 (Xenial Xerus), 18.04 (Bionic Beaver)</small>
   </td>
   <p/>
-  <a href="{{ page.baseurl }}-ubuntu-16.04-linux-x86_64.tar.gz">Download 16.04 .tar.gz</a>
+  <a href="{{ baseurl }}-ubuntu-16.04-linux-x86_64.tar.gz">Download 16.04 .tar.gz</a>
   <p/>
-  <a href="{{ page.baseurl }}-ubuntu-18.04-linux-x86_64.tar.gz">Download 18.04 .tar.gz</a>
+  <a href="{{ baseurl }}-ubuntu-18.04-linux-x86_64.tar.gz">Download 18.04 .tar.gz</a>
 </tr>
 <tr>
-  <td bgcolor="#0000FF"> <img src="/images/download-white.svg" width=18px height=18px>
+  <td bgcolor="#0000FF"> <img src="{{ base_path }}/images/download-white.svg" width=18px height=18px>
     CentOS
     <small>7.6</small>
   </td>
   <p/>
-  <a href="{{ page.baseurl }}-centos-7-linux-x86_64.tar.gz">Download 7.6 .tar.gz</a>
+  <a href="{{ baseurl }}-centos-7-linux-x86_64.tar.gz">Download 7.6 .tar.gz</a>
 </tr>
 <tr>
-  <td bgcolor="#0000FF"> <img src="/images/download-white.svg" width=18px height=18px>
+  <td bgcolor="#0000FF"> <img src="{{ base_path }}/images/download-white.svg" width=18px height=18px>
     Raspberry Pi
     <small>Raspbian Stretch</small>
   </td>
   <p/>
-  <a href="{{ page.baseurl }}-raspbian-9-linux-arm_32.tar.gz">Download .tar.gz</a>
+  <a href="{{ baseurl }}-raspbian-9-linux-arm_32.tar.gz">Download .tar.gz</a>
 </tr>
 <tr>
-  <td bgcolor="#0000FF"> <img src="/images/download-white.svg" width=18px height=18px>
+  <td bgcolor="#0000FF"> <img src="{{ base_path }}/images/download-white.svg" width=18px height=18px>
     Windows
     <small>Windows 10</small>
   </td>
   <p/>
-  <a href="{{ page.baseurl }}-windows-x86_64.zip">Download .zip</a>
+  <a href="{{ baseurl }}-windows-x86_64.zip">Download .zip</a>
 </tr>
 </tbody>
 </table>
