@@ -23,11 +23,11 @@ Free/Libre Open Source Software. Transputer Emulation/Virtual Machine & Language
 <table>
 <tbody>
 <tr>
-  <td> ![]({{ base_path }}/images/apple-logo-old-white.png"){:height=200 width=200} </td>
-  <td> <img src="{{ base_path }}/images/ubuntu-logo32.png"height=200 width=200> </td>
-  <td> <img src="{{ base_path }}/images/centos-logo-transparent.png"height=200 width=200> </td>
-  <td> <img src="{{ base_path }}/images/raspberry-pi-logo-white.png"height=200 width=200> </td>
-  <td> <img src="{{ base_path }}/images/windows-logo-transparent.png"height=200 width=200> </td>
+  <td> ![]({{ base_path }}/images/apple-logo-old-white.png){:height=200 width=200} </td>
+  <td> ![]({{ base_path }}/images/ubuntu-logo32.png){:height=200 width=200} </td>
+  <td> ![]({{ base_path }}/images/centos-logo-transparent.png){:height=200 width=200} </td>
+  <td> ![]({{ base_path }}/images/raspberry-pi-logo-white.png){:height=200 width=200} </td>
+  <td> ![]({{ base_path }}/images/windows-logo-transparent.png){:height=200 width=200} </td>
 </tr>
 <tr>
   <td bgcolor="#0000FF"> <img src="{{ base_path }}/images/download-white.svg" width=18px height=18px>
