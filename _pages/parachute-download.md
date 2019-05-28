@@ -25,7 +25,7 @@ for installation instructions.
 <b>Current version: {{ page.version }}</b>
 <p/>
 
----
+<hr style="height:5px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 ![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png) \\
 macOS - El Capitan
