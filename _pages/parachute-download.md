@@ -23,16 +23,18 @@ for installation instructions.
 
 <p/>
 <b>Current version: {{ page.version }}</b>
+<b>site baseurl: {{ site.baseurl }}</b>
+<b>page baseurl: {{ page.baseurl }}</b>
+<b>post baseurl: {{ post.baseurl }}</b>
+<b>baseurl: {{ baseurl }}</b>
+<b>site repourl: {{ site.repourl }}</b>
+<b>page repourl: {{ page.repourl }}</b>
+<b>post repourl: {{ post.repourl }}</b>
+<b>repourl: {{ repourl }}</b>
 <p/>
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
-![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png) | [Download Parachute for macOS (.tar.gz)]({{ page.baseurl }}-mac-x86_64.tar.gz)
-macOS - El Capitan \\
-<small>may work on later, can't easily test</small> |
-
-
-<hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 
 ![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png) \\
@@ -43,6 +45,8 @@ macOS - El Capitan
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
+
+
 ![Ubuntu Logo]({{ base_path }}/images/ubuntu-logo32.png) \\
 Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver)
 
@@ -51,6 +55,8 @@ Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
+
+
 ![CentOS Logo]({{ base_path }}/images/centos-logo-transparent.png) \\
 CentOS - 7.6
 
@@ -58,12 +64,16 @@ CentOS - 7.6
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
+
+
 ![Raspberry Pi Logo]({{ base_path }}/images/raspberry-pi-logo-white.png) \\
 Raspberry Pi - Raspbian Stretch
 
 [Download Parachute for Raspbian Stretch (.tar.gz)]({{ page.baseurl }}-raspbian-9-linux-arm_32.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
+
+
 
 ![Windows Logo]({{ base_path }}/images/windows-logo-transparent.png) \\
 Windows - Windows 10
