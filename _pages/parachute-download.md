@@ -5,7 +5,6 @@ excerpt: "Portable Parallel Processing."
 author_profile: false
 version: "0.0.1-SNAPSHOT"
 repourl: "https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator"
-baseurl: "{{ repourl }}/{{ version }}/parachute-{{ version }}"
 ---
 
 {% include base_path %}
@@ -23,23 +22,6 @@ for installation instructions.
 
 <p/>
 <b>Current version: {{ page.version }}</b>
-
-<b>site baseurl: {{ site.baseurl }}</b>
-
-<b>page baseurl: {{ page.baseurl }}</b>
-
-<b>post baseurl: {{ post.baseurl }}</b>
-
-<b>baseurl: {{ baseurl }}</b>
-
-<b>site repourl: {{ site.repourl }}</b>
-
-<b>page repourl: {{ page.repourl }}</b>
-
-<b>post repourl: {{ post.repourl }}</b>
-
-<b>repourl: {{ repourl }}</b>
-
 <p/>
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
@@ -50,7 +32,7 @@ macOS - El Capitan
 <small>may work on later, can't easily test</small>
 ![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png) \\
 
-[Download Parachute for macOS (.tar.gz)]({{ page.baseurl }}-mac-x86_64.tar.gz)
+[Download Parachute for macOS (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-mac-x86_64.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
@@ -59,8 +41,8 @@ macOS - El Capitan
 Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver)
 ![Ubuntu Logo]({{ base_path }}/images/ubuntu-logo32.png) \\
 
-[Download Parachute for Ubuntu 16.04 (.tar.gz)]({{ page.baseurl }}-ubuntu-16.04-linux-x86_64.tar.gz) \\
-[Download Parachute for Ubuntu 18.04 (.tar.gz)]({{ page.baseurl }}-ubuntu-18.04-linux-x86_64.tar.gz)
+[Download Parachute for Ubuntu 16.04 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-16.04-linux-x86_64.tar.gz) \\
+[Download Parachute for Ubuntu 18.04 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-18.04-linux-x86_64.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
@@ -69,7 +51,7 @@ Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver)
 CentOS - 7.6
 ![CentOS Logo]({{ base_path }}/images/centos-logo-transparent.png) \\
 
-[Download Parachute for CentOS 7.6 (.tar.gz)]({{ page.baseurl }}-centos-7-linux-x86_64.tar.gz)
+[Download Parachute for CentOS 7.6 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-centos-7-linux-x86_64.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
@@ -78,7 +60,7 @@ CentOS - 7.6
 Raspberry Pi - Raspbian Stretch
 ![Raspberry Pi Logo]({{ base_path }}/images/raspberry-pi-logo-white.png) \\
 
-[Download Parachute for Raspbian Stretch (.tar.gz)]({{ page.baseurl }}-raspbian-9-linux-arm_32.tar.gz)
+[Download Parachute for Raspbian Stretch (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-raspbian-9-linux-arm_32.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
@@ -88,6 +70,6 @@ Windows - Windows 10
 <small>may work on earlier, can't easily test</small>
 ![Windows Logo]({{ base_path }}/images/windows-logo-transparent.png) \\
 
-[Download Parachute for Windows 10 (.zip)]({{ page.baseurl }}-windows-x86_64.zip)
+[Download Parachute for Windows 10 (.zip)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-windows-x86_64.zip)
 
 
