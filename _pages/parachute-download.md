@@ -27,14 +27,10 @@ for installation instructions.
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
-<table>
-<tr>
-<td>![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png)</td><td>macOS - El Capitan
-<small>may work on later, can't easily test</small>
-[Download Parachute for macOS (.tar.gz)]({{ page.baseurl }}-mac-x86_64.tar.gz)
-</td>
-</tr>
-</table>
+![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png) | [Download Parachute for macOS (.tar.gz)]({{ page.baseurl }}-mac-x86_64.tar.gz)
+macOS - El Capitan \\
+<small>may work on later, can't easily test</small> |
+
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
