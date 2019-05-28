@@ -20,18 +20,18 @@ see the [**Verifying Digital Signatures**]({{ base_path }}/verifying-digital-sig
 Once downloaded, please read the [**Getting Started With Parachute**]({{ base_path }}/parachute-getting-started/) page
 for installation instructions.
 
-All release files for all versions can be found directly in [**The Parachute Repository**]({{ repourl }}). The release notices may be found in
+All release files for all versions can be found directly in [**The Parachute Repository**]({{ page.repourl }}). The release notices may be found in
 [**The Parachute Changelog**]({{ base_path }}/parachute-changelog/).
 
 <p/>
-<b>Current version: {{ page.version }}</b>
+<b>Latest version: {{ page.version }}</b>
 <p/>
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 
-macOS - El Capitan \\
-<small>may work on later, can't easily test</small> \\
+macOS - El Capitan 10.11 \\
+<small>may work on later versions, can't easily test</small> \\
 ![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png)
 
 [Download Parachute for macOS (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-mac-x86_64.tar.gz) \\
