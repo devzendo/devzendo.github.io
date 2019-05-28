@@ -5,7 +5,7 @@ excerpt: "Portable Parallel Processing."
 author_profile: false
 version: "0.0.1-SNAPSHOT"
 repourl: "https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator"
-baseurl: "{{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-"
+baseurl: "{{ repourl }}/{{ version }}/parachute-{{ version }}-"
 ---
 
 {% include base_path %}
@@ -23,16 +23,14 @@ Free/Libre Open Source Software. Transputer Emulation/Virtual Machine & Language
 ---
 
 ![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png) \\
-macOS \\
-<small>El Capitan</small>
+macOS - El Capitan (may work on later, can't easily test)
 
 <a href="{{ page.baseurl }}-mac-x86_64.tar.gz">Download .tar.gz</a>
 
 ---
 
 ![Ubuntu Logo]({{ base_path }}/images/ubuntu-logo32.png) \\
-Ubuntu LTS \\
-<small>16.04 (Xenial Xerus), 18.04 (Bionic Beaver)</small>
+Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver)
 
 <a href="{{ page.baseurl }}-ubuntu-16.04-linux-x86_64.tar.gz">Download 16.04 .tar.gz</a> \\
 <a href="{{ page.baseurl }}-ubuntu-18.04-linux-x86_64.tar.gz">Download 18.04 .tar.gz</a>
@@ -40,24 +38,21 @@ Ubuntu LTS \\
 ---
 
 ![CentOS Logo]({{ base_path }}/images/centos-logo-transparent.png) \\
-CentOS \\
-<small>7.6</small>
+CentOS - 7.6
 
 <a href="{{ page.baseurl }}-centos-7-linux-x86_64.tar.gz">Download 7.6 .tar.gz</a>
 
 ---
 
 ![Raspberry Pi Logo]({{ base_path }}/images/raspberry-pi-logo-white.png) \\
-Raspberry Pi \\
-<small>Raspbian Stretch</small>
+Raspberry Pi - Raspbian Stretch
 
 <a href="{{ page.baseurl }}-raspbian-9-linux-arm_32.tar.gz">Download .tar.gz</a>
 
 ---
 
 ![Windows Logo]({{ base_path }}/images/windows-logo-transparent.png) \\
-Windows \\
-<small>Windows 10</small>
+Windows - Windows 10 (may work on earlier, can't easily test)
 
 <a href="{{ page.baseurl }}-windows-x86_64.zip">Download .zip</a>
 
