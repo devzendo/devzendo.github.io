@@ -21,7 +21,7 @@ Free/Libre Open Source Software. Transputer Emulation/Virtual Machine & Language
 <p/>
 
 
-![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png)"){:height=200 width=200} \\
+![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png){:height=200 width=200} \\
 macOS \\
 <small>El Capitan</small>
 
@@ -32,7 +32,7 @@ macOS \\
 
 
 
-<img src="{{ base_path }}/images/ubuntu-logo32.png" height=200 width=200> \\
+![Ubuntu Logo]({{ base_path }}/images/ubuntu-logo32.png){:height=200 width=200} \\
 Ubuntu LTS \\
 <small>16.04 (Xenial Xerus), 18.04 (Bionic Beaver)</small>
 
@@ -44,7 +44,7 @@ Ubuntu LTS \\
 
 
 
-<img src="{{ base_path }}/images/centos-logo-transparent.png" height=200 width=200> \\
+![CentOS Logo]({{ base_path }}/images/centos-logo-transparent.png){:height=200 width=200} \\
 CentOS \\
 <small>7.6</small>
 
@@ -55,7 +55,7 @@ CentOS \\
 
 
 
-<img src="{{ base_path }}/images/raspberry-pi-logo-white.png" height=200 width=200> \\
+![Raspberry Pi Logo]({{ base_path }}/images/raspberry-pi-logo-white.png){:height=200 width=200} \\
 Raspberry Pi \\
 <small>Raspbian Stretch</small>
 
@@ -66,7 +66,7 @@ Raspberry Pi \\
 
 
 
-<img src="{{ base_path }}/images/windows-logo-transparent.png" height=200 width=200> \\
+![Windows Logo]({{ base_path }}/images/windows-logo-transparent.png){:height=200 width=200} \\
 Windows \\
 <small>Windows 10</small>
 
