@@ -20,6 +20,9 @@ see the [**Verifying Digital Signatures**]({{ base_path }}/verifying-digital-sig
 Once downloaded, please read the [**Getting Started With Parachute**]({{ base_path }}/parachute-getting-started/) page
 for installation instructions.
 
+All release files for all versions can be found directly in [**The Parachute Repository**]({{ repourl }}). The release notices may be found in
+[**The Parachute Changelog**]({{ base_path }}/parachute-changelog/).
+
 <p/>
 <b>Current version: {{ page.version }}</b>
 <p/>
