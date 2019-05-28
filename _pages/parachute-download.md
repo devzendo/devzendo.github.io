@@ -27,21 +27,17 @@ for installation instructions.
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 
-<p align="center">
 macOS - El Capitan \\
 <small>may work on later, can't easily test</small> \\
 ![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png)
-</p>
 
 [Download Parachute for macOS (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-mac-x86_64.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 
-<p align="center">
 Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver) \\
 ![Ubuntu Logo]({{ base_path }}/images/ubuntu-logo32.png)
-</p>
 
 [Download Parachute for Ubuntu 16.04 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-16.04-linux-x86_64.tar.gz) \\
 [Download Parachute for Ubuntu 18.04 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-18.04-linux-x86_64.tar.gz)
@@ -49,31 +45,25 @@ Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver) \\
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 
-<p align="center">
 CentOS - 7.6 \\
 ![CentOS Logo]({{ base_path }}/images/centos-logo-transparent.png)
-</p>
 
 [Download Parachute for CentOS 7.6 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-centos-7-linux-x86_64.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 
-<p align="center">
 Raspberry Pi - Raspbian Stretch \\
 ![Raspberry Pi Logo]({{ base_path }}/images/raspberry-pi-logo-white.png)
-</p>
 
 [Download Parachute for Raspbian Stretch (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-raspbian-9-linux-arm_32.tar.gz)
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
 
-<p align="center">
 Windows - Windows 10 \\
 <small>may work on earlier, can't easily test</small> \\
 ![Windows Logo]({{ base_path }}/images/windows-logo-transparent.png)
-</p>
 
 [Download Parachute for Windows 10 (.zip)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-windows-x86_64.zip)
 
