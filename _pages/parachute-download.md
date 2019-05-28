@@ -47,7 +47,7 @@ Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver) \\
 [Ubuntu 16.04 Checksum (.md5)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-16.04-linux-x86_64.md5) \\
 [Ubuntu 16.04 Checksum (.sha1)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-16.04-linux-x86_64.sha1)
 
-[Download Parachute for Ubuntu 18.04 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-18.04-linux-x86_64.tar.gz)
+[Download Parachute for Ubuntu 18.04 (.tar.gz)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-18.04-linux-x86_64.tar.gz) \\
 [Ubuntu 18.04 Signature (.asc)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-18.04-linux-x86_64.asc) \\
 [Ubuntu 18.04 Checksum (.md5)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-18.04-linux-x86_64.md5) \\
 [Ubuntu 18.04 Checksum (.sha1)]({{ page.repourl }}/{{ page.version }}/parachute-{{ page.version }}-ubuntu-18.04-linux-x86_64.sha1)
