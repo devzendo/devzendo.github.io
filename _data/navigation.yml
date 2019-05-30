@@ -27,6 +27,8 @@ docs:
         url: /software-crafting-books/
       - title: "Contact Us"
         url: /contact/
+      - title: "Verifying Digital Signatures"
+        url: /verifying-digital-signatures/
 
   - title: "Applications"
     url: /applications/
@@ -39,6 +41,17 @@ docs:
         url: /shhhh/
       - title: "Parachute Project"
         url: /parachute/
+        children:
+        - title: "Download"
+          url: /parachute-download/
+        - title: "Getting Started"
+          url: /parachute-getting-started/
+        - title: "Changelog / Release notes"
+          url: /parachute-changelog/
+        - title: "Archive of Downloads"
+          url: https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator
+        - title: "History"
+          url: /paachute-history/
 
   - title: "Developer Area"
     url: /developer-area/

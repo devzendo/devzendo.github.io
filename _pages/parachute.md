@@ -21,8 +21,11 @@ The goals are:
  * investigate modern/concurrent/functional language design
  * investigate building an FPGA Transputer system capable of running the above
 
+To download the current release of Parachute for macOS, Ubuntu, CentOS, Raspberry Pi, or Windows 10, visit the [**Parachute Downloads**]({{ base_path }}/parachute-download/) page.
+
 The history of the project leading up to its current point can be found at the [**Parachute Project History**]({{ base_path }}/parachute-history/) page.
 
+Parachute is released under the [**Apache License 2.0**](http://www.apache.org/licenses/LICENSE-2.0).
 
 The current state is that I have the following three sub-projects - the README.md at the top-level of each of these
 repositories will give more detail...
