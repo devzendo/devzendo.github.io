@@ -18,11 +18,9 @@ Read on to find out how to install Parachute, how to assemble a sample program, 
 
 1.  Unpack the archive into an installation folder.
 
-<div color="#FF0000">
     **For Windows systems**, you can use File Explorer to open the .zip file, then drag the contents out to
     into a new folder - say `C:\Parachute` - this will give you `C:\Parachute\bin`, `C:\Parachute\lib` folders etc.
-</div>
-<div color="#00FF00">    
+
     **For UNIX-Like systems** (CentOS, Ubuntu, macOS, Raspbian), extract the archive from the command line.
     Since it isn't (yet) shipped as a package file, such as .deb (Ubuntu, Raspbian) or .rpm (CentOS),
     or .pkg (macOS), you could create a folder for it under the /opt tree:
@@ -35,7 +33,6 @@ Read on to find out how to install Parachute, how to assemble a sample program, 
     
     This will give you `/opt/parachute/bin`, `/opt/parachute/lib` folders, etc.
     You _could_ unpack it under `/usr/local`, but note there are a few .md files at the top level of the archive.
-</div>
     
 2.  Add the `bin` folder to the `PATH` environment variable.
 
