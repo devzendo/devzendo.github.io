@@ -83,6 +83,9 @@ Read on to find out how to install Parachute, how to assemble a sample program, 
     > The Transputer is just a CPU with memory and four I/O links. It can't access the operating
     > system of the system it's running on directly. Any access to the operating system is done by sending appropriate
     > I/O protocol messages down I/O link #0, to the I/O server that's running on the same system as the emulator.
+    > Later versions of Parachute will enable the I/O server to run on different systems linked by a TCP connection,
+    > and might provide a unified I/O server/Emulator with both parts running in separate threads linked by shared
+    > memory..
     
     In the I/O server window, run:
     
