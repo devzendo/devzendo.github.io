@@ -29,7 +29,7 @@ All release files for all versions can be found directly in [**The Parachute Rep
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
-
+\\
 macOS - El Capitan 10.11 \\
 <small>may work on later versions, can't easily test</small> \\
 ![Apple Logo]({{ base_path }}/images/apple-logo-old-white.png)
@@ -41,7 +41,7 @@ macOS - El Capitan 10.11 \\
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
-
+\\
 Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver) \\
 ![Ubuntu Logo]({{ base_path }}/images/ubuntu-logo32.png)
 
@@ -57,7 +57,7 @@ Ubuntu LTS - 16.04 (Xenial Xerus), 18.04 (Bionic Beaver) \\
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
-
+\\
 CentOS - 7.6 \\
 ![CentOS Logo]({{ base_path }}/images/centos-logo-transparent.png)
 
@@ -68,7 +68,7 @@ CentOS - 7.6 \\
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
-
+\\
 Raspberry Pi - Raspbian Stretch \\
 ![Raspberry Pi Logo]({{ base_path }}/images/raspberry-pi-logo-white.png)
 
@@ -79,7 +79,7 @@ Raspberry Pi - Raspbian Stretch \\
 
 <hr style="height:3px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
 
-
+\\
 Windows - Windows 10 \\
 <small>may work on earlier, can't easily test</small> \\
 ![Windows Logo]({{ base_path }}/images/windows-logo-transparent.png)
