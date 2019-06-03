@@ -108,3 +108,10 @@ Read on to find out how to install Parachute, how to assemble a sample program, 
     (still does not return)
     Ctrl-C <<- you'll have to interrupt it.
     ```
+
+    The hello2.bin program initialises the Transputer, then sends a "put console" protocol frame with the payload
+    "hello world" to the I/O server, then terminates. 
+    
+    It's a start...
+    
+... TO BE CONTINUED. 
