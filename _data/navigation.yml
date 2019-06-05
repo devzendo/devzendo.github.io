@@ -52,7 +52,7 @@ docs:
     - title: "Archive of Downloads"
       url: https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator
     - title: "History"
-      url: /paachute-history/
+      url: /parachute-history/
 
   - title: "Developer Area"
     url: /developer-area/
