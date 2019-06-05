@@ -39,18 +39,20 @@ docs:
         url: /apps/shell/
       - title: "Codename: Feurio"
         url: /shhhh/
-      - title: "Parachute Project"
-        url: /parachute/
-      - title: "&#2517; Download"
-        url: /parachute-download/
-      - title: "&#2517; Getting Started"
-        url: /parachute-getting-started/
-      - title: "&#2517; Changelog / Release notes"
-        url: /parachute-changelog/
-      - title: "&#2517; Archive of Downloads"
-        url: https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator
-      - title: "&#2517;History"
-        url: /paachute-history/
+
+  - title: "Parachute Project"
+    url: /parachute/
+    children:
+    - title: "Download"
+      url: /parachute-download/
+    - title: "Getting Started"
+      url: /parachute-getting-started/
+    - title: "Changelog / Release notes"
+      url: /parachute-changelog/
+    - title: "Archive of Downloads"
+      url: https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator
+    - title: "History"
+      url: /paachute-history/
 
   - title: "Developer Area"
     url: /developer-area/
