@@ -7,13 +7,20 @@ author_profile: false
 
 {% include base_path %}
 
-All DevZendo.org packages and applications are digitally signed by Matt Gumbley using GPG2.
+# Overview
+All DevZendo.org packages and applications are digitally signed by Matt Gumbley using GPG2,
+and are downloadable from Maven Central.
 
 You can check that the version of software that you want to install is original and
 unmodified by either verifying the file's signature or comparing the checksum with the one
 published in the release announcement.
 
-All packages are shipped with MD5 and SHA1 checksums.
+All packages are uploaded with MD5 and SHA1 checksums.
+
+The instructions here presuppose you are using Linux or macOS, or some UNIXy system. The
+same principles apply on Windows, but the paths, prompts would be different.
+
+## Digital Signature Verification
 
 You will need Gnu Privacy Guard installing - see https://gnupg.org .
 Installing and setting this up is outside the scope of this page.
@@ -91,6 +98,9 @@ Installing and setting this up is outside the scope of this page.
     
     ```
     $ gpg2 --import matt-gumbley-public.key
+    gpg: key B6F3E26A5BF15889: public key "Matt Gumbley <matt@gumbley.me.uk>" imported
+    gpg: Total number processed: 1
+    gpg:               imported: 1
     ```
     
     You can then check that it was imported by listing your keys:
@@ -98,6 +108,142 @@ Installing and setting this up is outside the scope of this page.
     $ gpg2 --list-keys
     ...
     ...
+    pub   dsa1024 2004-05-14 [SC]
+          0A8631FA90FD263BD7C8E16EB6F3E26A5BF15889
+    uid           [ unknown] Matt Gumbley <matt@gumbley.me.uk>
+    ```
+        
+4. Re-verifying:  
+    
+    ```
+    $ gpg2 --verify common-code-1.1.4.jar.asc common-code-1.1.4.jar
+    gpg: Signature made Sat 26 Jan 19:23:32 2019 GMT
+    gpg:                using DSA key 0A8631FA90FD263BD7C8E16EB6F3E26A5BF15889
+    gpg: Good signature from "Matt Gumbley <matt@gumbley.me.uk>" [unknown]
+    gpg: WARNING: This key is not certified with a trusted signature!
+    gpg:          There is no indication that the signature belongs to the owner.
+    Primary key fingerprint: 0A86 31FA 90FD 263B D7C8  E16E B6F3 E26A 5BF1 5889
     ```
     
+    This is an improvement, you have a copy of my key and the signature is valid, but
+    either you have not marked the key as trusted or the key is a forgery.
+    In this case, at the very least, you should compare the fingerprint that is shown
+    matches that shown here *0A8631FA90FD263BD7C8E16EB6F3E26A5BF15889*.
     
+5. Trusting me:
+
+    If you are certain that the key is not a forgery, you can mark it as trusted via the
+    following interactive use of gpg2:
+    
+    ```
+    $ gpg2 --edit-key 0A8631FA90FD263BD7C8E16EB6F3E26A5BF15889
+    gpg (GnuPG) 2.2.5; Copyright (C) 2018 Free Software Foundation, Inc.
+    This is free software: you are free to change and redistribute it.
+    There is NO WARRANTY, to the extent permitted by law.
+    
+    
+    pub  dsa1024/B6F3E26A5BF15889
+         created: 2004-05-14  expires: never       usage: SC
+         trust: unknown       validity: unknown
+    sub  elg1024/95DFDA0061AC9B41
+         created: 2004-05-14  expires: never       usage: E
+    [ unknown] (1). Matt Gumbley <matt@gumbley.me.uk>
+    
+    gpg> 
+    ```
+    
+    At this point, I enter the 'trust' command to indicate how much I trust the key:
+    
+    ```
+    gpg> trust
+    pub  dsa1024/B6F3E26A5BF15889
+         created: 2004-05-14  expires: never       usage: SC
+         trust: unknown       validity: unknown
+    sub  elg1024/95DFDA0061AC9B41
+         created: 2004-05-14  expires: never       usage: E
+    [ unknown] (1). Matt Gumbley <matt@gumbley.me.uk>
+    
+    Please decide how far you trust this user to correctly verify other users' keys
+    (by looking at passports, checking fingerprints from different sources, etc.)
+    
+      1 = I don't know or won't say
+      2 = I do NOT trust
+      3 = I trust marginally
+      4 = I trust fully
+      5 = I trust ultimately
+      m = back to the main menu
+    
+    Your decision? 
+    ```
+    
+    At this point, you need to decide how much you trust me, then exit the interactive gpg2...
+    
+    ```
+    Your decision? 5
+    Do you really want to set this key to ultimate trust? (y/N) y
+    
+    pub  dsa1024/B6F3E26A5BF15889
+         created: 2004-05-14  expires: never       usage: SC
+         trust: ultimate      validity: unknown
+    sub  elg1024/95DFDA0061AC9B41
+         created: 2004-05-14  expires: never       usage: E
+    [ unknown] (1). Matt Gumbley <matt@gumbley.me.uk>
+    Please note that the shown key validity is not necessarily correct
+    unless you restart the program.
+    
+    gpg> quit
+    $
+    ```
+    
+6. Finally re-verifying:  
+    
+    ```
+    $ gpg2 --verify common-code-1.1.4.jar.asc common-code-1.1.4.jar
+    gpg: Signature made Sat 26 Jan 19:23:32 2019 GMT
+    gpg:                using DSA key 0A8631FA90FD263BD7C8E16EB6F3E26A5BF15889
+    gpg: checking the trustdb
+    gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+    gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+    gpg: Good signature from "Matt Gumbley <matt@gumbley.me.uk>" [ultimate]
+
+    ```
+
+
+## Checksum verification
+
+This is a much weaker form of verification, but is significantly easier.
+
+1. Example verification
+   
+   As an example, we'll verify the authenticity of common-code 1.1.4's .jar archive. This is
+   downloadable via maven usually, but we can get it manually from Maven Central, at:
+   https://repo.maven.apache.org/maven2/org/devzendo/common-code/1.1.4/
+   
+   Download the files:
+   https://repo.maven.apache.org/maven2/org/devzendo/common-code/1.1.4/common-code-1.1.4.jar
+   and either
+   https://repo.maven.apache.org/maven2/org/devzendo/common-code/1.1.4/common-code-1.1.4.jar.md5
+   or
+   https://repo.maven.apache.org/maven2/org/devzendo/common-code/1.1.4/common-code-1.1.4.jar.sha1
+   
+2. Look at the downloaded checksums (viewing them in an editor will be easiest).
+   
+   ```
+   less common-code-1.1.4.jar.md5
+   1ff7d3509351fed7583246ba01ae7367
+   
+   less common-code-1.1.4.jar.sha1
+   d011c72918efe875ecf18b98329136e8e414fa96
+   ```
+   
+   Now, recompute the checksums of the common-code-1.1.4.jar file, and see if they match:
+   ```
+   $ md5sum common-code-1.1.4.jar
+   1ff7d3509351fed7583246ba01ae7367  common-code-1.1.4.jar
+   $ shasum -a 1 common-code-1.1.4.jar
+   d011c72918efe875ecf18b98329136e8e414fa96  common-code-1.1.4.jar
+   ```
+   
+   They match the ones available from the download area, so your downloads stand a reasonable
+   chance of being the same as those I uploaded.
+   
