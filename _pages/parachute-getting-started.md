@@ -29,7 +29,7 @@ Read on to find out how to install Parachute, how to assemble a sample program, 
     
     `mkdir -p /opt/parachute && cd /opt/parachute`
     
-    `tar xzvf ${HOME}/Downloads/parachute-0.0.1-mac-x86_64.tar.gz` (Say, for the macOS download)
+    `tar xzvf ${HOME}/Downloads/parachute-0.0.1-mac.tar.gz` (Say, for the macOS download)
     
     This will give you `/opt/parachute/bin`, `/opt/parachute/lib` folders, etc.
     You _could_ unpack it under `/usr/local`, but note there are a few .md files at the top level of the archive.
