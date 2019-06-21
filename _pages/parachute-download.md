@@ -4,7 +4,7 @@ title: "The Parachute Project: Downloads"
 excerpt: "Portable Parallel Processing."
 author_profile: false
 version: "0.0.1"
-repourl: "https://repo.maven.apache.org/maven2/org/devzendo/transputer-emulator"
+repourl: "https://repo.maven.apache.org/maven2/org/devzendo/parachute"
 ---
 
 {% include base_path %}
