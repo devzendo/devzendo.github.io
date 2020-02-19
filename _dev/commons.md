@@ -68,6 +68,6 @@ Unless otherwise stated:
 ## bsd-third-party
 * Small library that provides code written by others, that is not otherwise published on the central Maven repository, that is licensed under the BSD license.
 * **License:** <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License v2</a>
-* **Current release:** Not yet released.
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/bsd-third-party">Mercurial source repository, hosted on Bitbucket
+* **Current release:** 1.1.0
+* **Source code:** <a href="https://github.com/devzendo/bsd-third-party.git">Git source repository, hosted on Github
 
