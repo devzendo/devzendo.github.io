@@ -24,9 +24,9 @@ Unless otherwise stated:
 
 ## group-parent
 * Common Maven settings for all DevZendo Java projects.
-* **Current release:** 1.0.3 (named GroupParent)
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/group-parent">Mercurial source repository, hosted on Bitbucket
-* **Availability**: Available from the <a href="http://search.maven.org/#artifactdetails%7Corg.devzendo%7CGroupParent%7C1.0.3%7Cpom">Central Maven Repository</a>
+* **Current release:** 1.1.10 (named group-parent)
+* **Source code:** <a href="https://github.com/devzendo/group-parent.git">Git source repository, hosted on Github
+* **Availability**: Available from the <a href="http://search.maven.org/#artifactdetails%7Corg.devzendo%7Cgroup-parent%7C1.1.10%7Cpom">Central Maven Repository</a>
 
 ## group-parent-scala
 * Common Maven settings for all DevZendo Scala projects.
