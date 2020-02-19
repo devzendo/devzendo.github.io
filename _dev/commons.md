@@ -49,9 +49,8 @@ Unless otherwise stated:
   * type aliasing.
   {: .small}
 
-* **Current release:** 1.0.2 (named CommonCode)
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/common-code">Mercurial source repository, hosted on Bitbucket
-* **Availability**: Available from the <a href="http://search.maven.org/#artifactdetails%7Corg.devzendo%7CCommonCode%7C1.0.2%7Cjar">Central Maven Repository</a>
+* **Current release:** 1.1.4 (named common-code)
+* **Source code:** <a href="https://github.com/devzendo/common-code.git">Git source repository, hosted on Github
 
 ## common-app
 * Small library that provides an application lifecycle and service management layer, using the Spring framework.
