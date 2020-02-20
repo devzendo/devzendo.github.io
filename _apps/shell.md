@@ -79,7 +79,7 @@ The interactive exploratory approach should not be used as a replacement for uni
 * **Current release:** Not yet released
 * **Release schedule:** The shell is released as part of the [DevZendo.org release schedule]({{ base_path }}/dev/release-schedule) which allows for 8 releases per year.
 * **Availability**: This is available from the <a href="http://search.maven.org/#browse%7C-125156780">Central Maven Repository</a>
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/shell">Mercurial source repository, hosted on Bitbucket
+* **Source code:** <a href="https://github.com/devzendo/shell.git">Git source repository, hosted on GitHub
 * **Contact:** there is no mailing list at the moment, please use the [contact us page]({{ base_path }}/contact), or <a href="http://twitter.com/devzendo">follow/tweet to us on Twitter</a>.
 
 
