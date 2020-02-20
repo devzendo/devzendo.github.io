@@ -34,17 +34,17 @@ All are IN PROGRESS, NOT YET RELEASED FORMALLY.
 
 WORKING (assembles eForth correctly), STILL NOT FEATURE-COMPLETE - The Transputer MASM-subset Macro Assembler can be found at:
 ```
-https://bitbucket.org/devzendo/transputer-macro-assembler
+https://github.com/devzendo/transputer-macro-assembler
 ```
 
 IN PROGRESS (needs I/O code changing to match my I/O server protocol) - Transputer eForth can be found at:
 ```
-https://bitbucket.org/devzendo/transputer-eforth
+https://github.com/devzendo/transputer-eforth
 ```
 
-WORKING (needs releasing) - The Transputer emulator itself can be found at:
+WORKING (currently converting I/O to be IServer compatible) - The Transputer emulator and I/O server itself can be found at:
 ```
-https://bitbucket.org/devzendo/transputer-emulator
+https://github.com/devzendo/transputer-emulator
 ```
 
 
@@ -71,8 +71,8 @@ Uwe Mielke's T42 Transputer in FPGA</a> project.
 
 # Other Emulators
 There are more emulators now - 
-* <a href="http://transterpreter.org">the Transterpreter</a>, 
 * <a href="https://sites.google.com/site/transputeremulator/Home">Gavin Crate's emulator</a>, 
+* <a href="http://transterpreter.org">the Transterpreter</a>, 
 * <a href="http://spirit.lboro.ac.uk/emulator.html">Julian Highfield's emulator</a>.
 
 # Resources
@@ -84,4 +84,4 @@ So the Transputer isn't dead... watch this space...
 
 ... to be continued ...
 
-Matt Gumbley, Tue 30 Apr 2019
+Matt Gumbley, Thu 20 Feb 2020
