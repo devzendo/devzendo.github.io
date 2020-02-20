@@ -65,8 +65,7 @@ Unless otherwise stated:
 ## common-gui
 * Small library that provides some of our common Swing-based GUI helper functionality.
 * **Current release:** 0.4.0 (named CommonGui)
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/common-gui">Mercurial source repository, hosted on Bitbucket
-* **Availability**: Available from the <a href="http://search.maven.org/#artifactdetails%7Corg.devzendo%7CCommonGui%7C0.4.0%7Cjar">Central Maven Repository</a>
+* **Source code:** <a href="https://github.com/devzendo/common-gui.git">
 
 ## bsd-third-party
 * Small library that provides code written by others, that is not otherwise published on the central Maven repository, that is licensed under the BSD license.
