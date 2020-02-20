@@ -20,17 +20,17 @@ Unless otherwise stated:
 * **License:** <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License v2</a>
 * **Release schedule:** Released as part of the [DevZendo.org release schedule]({{ base_path }}/dev/release-schedule) which allows for 8 releases per year.
 * **Availability**: Available from the <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.devzendo%22">Central Maven Repository</a>
-* **Contact:** there is no mailing list at the moment, please use the [contact us page]({{ base_path }}/contact), or <a href="http://twitter.com/devzendo">follow/tweet to us on Twitter</a>.
+* **Source code:** All available from <a href="https://github.com/devzendo">GitHub</a>
 
 ## group-parent
 * Common Maven settings for all DevZendo Java projects.
 * **Current release:** 1.1.10 (named group-parent)
-* **Source code:** <a href="https://github.com/devzendo/group-parent.git">Git source repository, hosted on Github
+* **Source code:** <a href="https://github.com/devzendo/group-parent.git">
 
 ## group-parent-scala
 * Common Maven settings for all DevZendo Scala projects.
 * **Current release:** 1.0.2
-* **Source code:** <a href="https://github.com/devzendo/group-parent-scala.git">Git source repository, hosted on Github
+* **Source code:** <a href="https://github.com/devzendo/group-parent-scala.git">
 
 ## common-code
 * Small, low-dependency utility library for:
@@ -50,13 +50,12 @@ Unless otherwise stated:
   {: .small}
 
 * **Current release:** 1.1.4 (named common-code)
-* **Source code:** <a href="https://github.com/devzendo/common-code.git">Git source repository, hosted on Github
+* **Source code:** <a href="https://github.com/devzendo/common-code.git">
 
 ## common-app
 * Small library that provides an application lifecycle and service management layer, using the Spring framework.
-* **Current release:** 0.4.2 (named CommonApp)
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/common-app">Mercurial source repository, hosted on Bitbucket
-* **Availability**: Available from the <a href="http://search.maven.org/#artifactdetails%7Corg.devzendo%7CCommonApp%7C0.4.2%7Cjar">Central Maven Repository</a>
+* **Current release:** 1.1.0 (named common-app)
+* **Source code:** <a href="https://github.com/devzendo/common-app.git">
 
 ## common-gui
 * Small library that provides some of our common Swing-based GUI helper functionality.
