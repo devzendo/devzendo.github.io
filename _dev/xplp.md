@@ -32,5 +32,5 @@ To find the correct JVM and launch it, the plugin uses shell scripts on Linux, J
   * [0.1.0 1st August 2010]({{ base_path }}/development/xplp-0.1.0)
 * **Release schedule:** The plugin is released as part of the [DevZendo.org release schedule]({{ base_path }}/dev/release-schedule) which allows for 8 releases per year.
 * **Availability**: This is available from the <a href="http://search.maven.org/#browse%7C-125156780">Central Maven Repository</a>
-* **Source code:** <a href="https://bitbucket.org/devzendo/xplp">Mercurial source repository
+* **Source code:** <a href="https://github.com/devzendo/xplp">Git source repository
 
