@@ -52,6 +52,11 @@ Unless otherwise stated:
 * **Current release:** 1.1.4 (named common-code)
 * **Source code:** <a href="https://github.com/devzendo/common-code.git">
 
+## common-code-scala
+* Small, low-dependency Scala specific utility library.
+* **Current release:** not yet released
+* **Source code:** <a href="https://github.com/devzendo/common-code-scala.git">
+
 ## common-app
 * Small library that provides an application lifecycle and service management layer, using the Spring framework.
 * **Current release:** 1.1.0 (named common-app)
