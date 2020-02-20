@@ -24,7 +24,7 @@ It mixes the H2 database engine with Spring-JDBC, in a type-safe style.
   * [0.1.1 18 September 2013]({{ base_path }}/development/common-db-0.1.1)
 * **Release schedule:** The framework is released as part of the [DevZendo.org release schedule]({{ base_path }}/dev/release-schedule) which allows for 8 releases per year.
 * **Availability**: This is available from the <a href="http://search.maven.org/#browse%7C-125156780">Central Maven Repository</a>
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/commondb">Mercurial source repository, hosted on Bitbucket
+* **Source code:** <a href="https://github.com/devzendo/common-db">
 * **Contact:** there is no mailing list at the moment, please use the [contact us page]({{ base_path }}/contact), or <a href="http://twitter.com/devzendo">follow/tweet to us on Twitter</a>.
 
 
