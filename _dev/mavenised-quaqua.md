@@ -151,6 +151,6 @@ UIManager.setLookAndFeel("ch.randelshofer.quaqua.QuaquaLookAndFeel");
 
 ## Mavenisation scripts
 
-The scripts used to prepare the Mavenised artifacts and deploy them to the Central Repository are available from <a href="https://devzendo@bitbucket.org/devzendo/quaqua">their Mercurial repository</a>.
+The scripts used to prepare the Mavenised artifacts and deploy them to the Central Repository are available from <a href="https://github.com/devzendo/quaqua">their Git repository</a>.
 
 
