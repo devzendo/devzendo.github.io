@@ -79,5 +79,6 @@ I now need to write an assembler client library for my emulator's I/O server pro
 
 This will give me an emulated system I can work with in eForth.
 
-After some polishing, the emulator now builds on macOS, CentOS 7, Ubuntu 16.04, Ubuntu 18.04, Windows 10.
+After some polishing, the emulator now builds on macOS, CentOS 7, Ubuntu 16.04, Ubuntu 18.04, Raspbian and Windows 10.
+It's a cross-platform, portable Transputer emulator.
 
