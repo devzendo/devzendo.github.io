@@ -27,8 +27,12 @@ binary T800 programs compiled by SPOC etc... sadly I never got it to a fully wor
 
 In 2005, I was bored during my commute to work, and having some time to kill on the train, and an old laptop running
 Linux, set about starting a new version of the Transputer emulator. This time, the links were connected to network
-ports. Link 0 can also communicate with a server process. I defined a small protocol for this server
-(later work will make use of existing Transputer server protocols; I needed something to get started).
+ports. Link 0 can also communicate with a server process. I defined a small protocol for this server; I needed
+something to get started - although now my current task is to refactor this to make use of the standard Inmos
+IServer protocol. The emulator/IServer code is at:
+```
+https://github.com/devzendo/transputer-emulator
+```
 
 I found on the Internet Parallel Computing Archive a project called ttools, which was an assembler/linker/disassembler,
 custom object format, and boot loader - and also by the same authors, a port of GCC 2.7.2 with the various
@@ -54,17 +58,22 @@ fine on 32-bit, but who would want to have an old VM installed, just to make use
 
 So I've abandoned ttools/gcc. If you fancy a challenge, you can find my efforts at making it work at
 ```
-https://bitbucket.org/devzendo/transputer-toolchain
+https://github.com/devzendo/transputer-toolchain
 ```
 
-I started looking into using NASM, the netwide assembler, for my next investigation: an attempt to get
-eForth running on the Transputer emulator. I've always wanted to get eForth running on something; my last attempt
-was on the Psion 3c PDA...
-
-... however this did not yield a successful build.
+My next investigation was an attempt to get eForth running on the Transputer emulator. I've always wanted to get eForth
+running on something, and understand how it works (my last attempt was on the Psion 3c PDA). However, eForth was
+written using Microsoft MASM, and I obtained a clean assembly in an MS-DOS virtual machine, but did not want to pursue
+MASM since it is a) not freely available (yes I know you can find it in shady places on the Internet), b) requires a
+non-free operating system (MS-DOS) that's painful to use today and c) is not open source. I prefer portable open source
+systems. So I started looking into using NASM, the netwide assembler... however this did not yield a successful build.
 
 So I set about building my own MASM clone - just the subset needed to assemble eForth. This is now working, and
-assembling in exactly the same way as MASM does.
+assembling in exactly the same way as MASM does. See:
+```
+https://github.com/devzendo/transputer-macro-assembler
+```
+
 
 I now need to write an assembler client library for my emulator's I/O server protocol, wire this into eForth.
 
