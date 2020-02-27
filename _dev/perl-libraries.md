@@ -27,5 +27,5 @@ to provide a 'heat map' of activity from these squares.
 ## Ham-WSJTX-Logparse
 Parses WSJT-X ALL.TXT files, to extract information about stations you have heard.
 
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/ham-wsjtx-log-parse">Mercurial source repository, hosted on Bitbucket
+* **Source code:** <a href="https://github.com/devzendo/ham-wsjtx-log-parse">Git source repository, hosted on GitHub
 
