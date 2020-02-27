@@ -22,7 +22,7 @@ Maidenhead locator grid and day/night illumination showing the area of enhanced 
 Also utility methods for adding dots at locator positions or lat/long coords, and filling grid squares with colour
 to provide a 'heat map' of activity from these squares.
 
-* **Source code:** <a href="https://devzendo@bitbucket.org/devzendo/ham-worldmap">Mercurial source repository, hosted on Bitbucket
+* **Source code:** <a href="https://github.com/devzendo/ham-worldmap">Git source repository, hosted on GitHub
 
 ## Ham-WSJTX-Logparse
 Parses WSJT-X ALL.TXT files, to extract information about stations you have heard.
