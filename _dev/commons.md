@@ -20,7 +20,7 @@ Unless otherwise stated:
 * **License:** <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License v2</a>
 * **Release schedule:** Released as part of the [DevZendo.org release schedule]({{ base_path }}/dev/release-schedule) which allows for 8 releases per year.
 * **Availability**: Available from the <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.devzendo%22">Central Maven Repository</a>
-* **Source code:** All available from <a href="https://github.com/devzendo">GitHub</a>
+* **Source code:** All available from <a href="https://github.com/devzendo">GitHub</a> (formerly BitBucket/Mercurial)
 
 ## group-parent
 * Common Maven settings for all DevZendo Java projects.
